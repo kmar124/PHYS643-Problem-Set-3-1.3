@@ -40,6 +40,9 @@ beta = D*dt/dx**2
 plt.ion()
 fig, ax = plt.subplots(1,1)
 
+plt.title("$\Sigma$(r, t) vs r")
+plt.xlabel("r (as a fraction of r/R$_0$)")
+plt.ylabel("$\Sigma$(r,t)")
 ax.plot(x, f, 'k-')
 plt1, = ax.plot(x, f, 'ro')
 
